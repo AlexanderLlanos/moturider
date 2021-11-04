@@ -1,0 +1,44 @@
+.banner {
+  background-image: url("../img/banner-2.png");
+  background-size: contain;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  @media (min-width: 575px) {
+    min-height: 600px;
+    height: initial;
+    background-image: url("../img/banner.jpg");
+    background-position: top right;
+  }
+
+  &--txt {
+    margin-top: 140px;
+    margin-bottom: 50px;
+
+    @media (min-width: 575px) {
+      margin-top: 180px;
+    }
+
+    h1 {
+      font-size: 40px;
+      line-height: 36px;
+      font-weight: 500;
+      margin-bottom: 10px;
+
+      @media (min-width: 575px) {
+        font-size: 80px;
+        line-height: 66px;
+        margin-bottom: 20px;
+      }
+
+      .llamada {
+        font-size: 20px;
+
+        @media (min-width: 575px) {
+          font-size: 50px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+@import "./_header.scss";
+@import "./_banner.scss";
+@import "./_features.scss";
+@import "./_description.scss";
+@import "./_client.scss";
+@import "./_contact.scss";
+@import "./_footer.scss";
+@import "./_fonts.scss";
+
+body {
+  font-family: "Poppins";
+  color: #2C3436;
+}
+
+.c-red {
+  color: #DE302F;
+}
